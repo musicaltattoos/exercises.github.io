@@ -34,37 +34,40 @@ function onEachFeature(feature, layer) {
 	var mygeoJSON = [
 {
 'type:FeatureCollection',
-		'features': [
-			{
+	'features': [
+		{
+		'type': 'Feature',
+		'properties': {
+			'OBJECTID' 1,
+			'Name': 'Bourbon & Branch<br> Monday through Friday 5pm - 7pm / Tuesdays until 11pm<br> $5 Old Fashion<br> $5 Whiskey Sours'
+			'url': '<'img src="https://thesanfranciscobarexperiment.files.wordpress.com/2010/01/dsc00120.jpg' height=200 width=200 />'
+		},
+		'geometry': {
+			'type': 'Point',
+			'coordinates': [
+				39.9620, 
+				-75.1408
+			]
+		}
+	},
+	{
 			'type': 'Feature',
 			'properties': {
-				'OBJECTID' 1,
-				'Name': 'Bourbon & Branch<br> Monday through Friday 5pm - 7pm / Tuesdays until 11pm<br> $5 Old Fashion<br> $5 Whiskey Sours'
-				'url': '<'img src="https://thesanfranciscobarexperiment.files.wordpress.com/2010/01/dsc00120.jpg' height=200 width=200 />'
+				'OBJECTID' 2,
+				'Name': 'Stateside<br> Monday through Friday 5pm - 7pm<br> $5 Old Fashion'
+				'url': 'img src="https://cdn2.vox-cdn.com/thumbor/vRPuu2ubYJiJWkvEozHLOj-pGh4=/0x6:243x143/1600x900/cdn0.vox-cdn.com/uploads/chorus_image/image/38851944/statesidelogo.0.png' height=200 width=200 />
 			},
 			'geometry': {
-				'type': 'Point',
+				'type': 'Point'
 				'coordinates': [
-					39.9620, 
-					-75.1408
-				]
-			}
-		},
-		{
-				'type': 'Feature',
-				'properties': {
-					'OBJECTID' 2,
-					'Name': 'Stateside<br> Monday through Friday 5pm - 7pm<br> $5 Old Fashion'
-					'url': 'img src="https://cdn2.vox-cdn.com/thumbor/vRPuu2ubYJiJWkvEozHLOj-pGh4=/0x6:243x143/1600x900/cdn0.vox-cdn.com/uploads/chorus_image/image/38851944/statesidelogo.0.png' height=200 width=200 />
-				},
-				'geometry': {
-					'type': 'Point'
-					'coordinates': [
-					39.9302, -75.1632]
-			}
+				39.9302, 
+				-75.1632
+			]
+		}
 	},
-		]
-	}]
+]
+}
+]
 	
 		
 	</script>
